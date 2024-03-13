@@ -1,0 +1,34 @@
+{
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/shared/logo.png",
+      "alt": "alt text"
+    }
+  ],
+  "collection": [
+    {
+      "buttons": [
+        {
+          "text": "Soluçoes",
+          "type": "PAGE",
+          "variant": "links.nav-dark"
+        },
+        {
+          "text": "Clientes",
+          "type": "PAGE",
+          "variant": "links.nav-dark"
+        },
+        {
+          "text": "Faq",
+          "type": "PAGE",
+          "variant": "links.nav-dark"
+        },
+        {
+          "text": "Dúvidas",
+          "type": "PAGE",
+          "variant": "links.nav-dark"
+        }
+      ]
+    }
+  ]
+}
