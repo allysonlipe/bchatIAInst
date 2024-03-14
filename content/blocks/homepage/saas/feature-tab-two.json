@@ -2,29 +2,33 @@
   "text": [
     {
       "text": "Respostas instantâneas",
-      "color": "omegaDark",
-      "variant": "h4"
+      "color": "#088E60",
+      "variant": "small"
     },
     {
       "text": "Diga adeus aos tempos de espera no atendimento",
+      "color": "#4E5460",
       "variant": "h2"
+      
     },
     {
       "text": "No mundo acelerado de hoje, a expectativa por serviços rápidos e eficientes nunca foi tão alta",
+      "color": "#4E5460",
       "variant": "medium"
     }
   ],
   "images": [
     {
-      "src": "../../../assets/flexiblocks/homepage/saas/tab-feature-two.png",
+      "src": "../../../assets/flexiblocks/homepage/saas/posso-ajudar.png",
       "alt": "alt text",
       "radius": "lg",
       "shadow": "default"
     },
     {
-      "src": "../../../assets/flexiblocks/homepage/saas/tab-feature-two-overlay-one.png",
+      "src": "../../../assets/flexiblocks/homepage/saas/ampulheta.png",
       "alt": "alt text",
       "radius": "lg",
+      "height": "10px",
       "shadow": "default",
       "effects": ["fadeInDown", "floatFaster"],
       "position": {
@@ -33,7 +37,7 @@
       }
     },
     {
-      "src": "../../../assets/flexiblocks/homepage/saas/tab-feature-two-overlay-two.png",
+      "src": "",
       "alt": "alt text",
       "effects": ["fadeInBounce", "float"],
       "position": {
@@ -43,12 +47,12 @@
     },
 
     {
-      "src": "../../../assets/flexiblocks/homepage/saas/tab-feature-two-overlay-three.png",
+      "src": "../../../assets/flexiblocks/homepage/saas/robo.png",
       "alt": "alt text",
       "effects": ["fadeInBounce", "floatFaster"],
       "position": {
         "bottom": "-10%",
-        "left": "20%"
+        "left": "5%"
       }
     }
   ],
@@ -57,7 +61,7 @@
       "text": [
         {
           "text": "Clientes satisfeitos",
-          "color": "omegaDarker",
+          "color": "#4E5460",
           "variant": "h5"
         },
         {
@@ -65,7 +69,7 @@
         },
         {
           "text": "89",
-          "color": "beta",
+          "color": "#088E60",
           "variant": "h2"
         }
       ]
@@ -74,7 +78,7 @@
       "text": [
         {
           "text": "Agilidade da IA",
-          "color": "omegaDarker",
+          "color": "#4E5460",
           "variant": "h5"
         },
         {
@@ -82,7 +86,7 @@
         },
         {
           "text": "97",
-          "color": "beta",
+          "color": "#088E60",
           "variant": "h2"
         }
       ]

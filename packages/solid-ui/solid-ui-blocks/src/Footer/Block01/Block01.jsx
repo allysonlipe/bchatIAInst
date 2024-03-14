@@ -2,10 +2,9 @@ import React from 'react'
 import { Link as GLink } from 'gatsby'
 import { Container, Box, Flex } from 'theme-ui'
 import ContentText from '@solid-ui-components/ContentText'
-import ContentImages from '@solid-ui-components/ContentImages'
-import PoweredByGatsby from '@solid-ui-components/PoweredByGatsby'
 import ContentButtons from '@solid-ui-components/ContentButtons'
 import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
+import logo from './image/logo.svg'
 
 const styles = {
   wrapper: {
@@ -28,14 +27,11 @@ const FooterBlock01 = ({ content: { images, collection } }) => {
           <Box sx={{ minWidth: 200 }}>
             <Box pb='1' mb='2' mt={[4, 0]}>
               <GLink to='/'>
-                <ContentImages content={{ images }} imageEffect='fadeIn' />
+              <img src={logo} alt="Logo" style={{ height: 'auto', maxWidth: '100%' }} />
               </GLink>
             </Box>
-            <Box pt='2' mb={[2, 4]}>
-              © {new Date().getFullYear()}, All Rights Reserved.
-            </Box>
-            <Box>
-              <PoweredByGatsby />
+            <Box sx={{color: `#F5F7FA`,}}  pt='2' mb={[2, 4]}>
+              © {new Date().getFullYear()}, Bolt360.
             </Box>
           </Box>
           {collection?.map(
@@ -47,7 +43,7 @@ const FooterBlock01 = ({ content: { images, collection } }) => {
                     variant='h5'
                     sx={{ display: [`none`, `block`] }}
                   />
-                  <ContentButtons
+                  <ContentButtons 
                     content={buttons}
                     variant='vertical'
                     wrapperStyles={{
@@ -56,9 +52,10 @@ const FooterBlock01 = ({ content: { images, collection } }) => {
                       justifyContent: `center`
                     }}
                   />
+
                 </Box>
               )
-          )}
+              )}
         </Flex>
       </Container>
     </Box>

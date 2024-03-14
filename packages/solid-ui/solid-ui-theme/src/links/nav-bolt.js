@@ -1,15 +1,15 @@
 export default {
-  color: `omegaDarker`,
-  fontWeight: `medium`,
+  color: `#F5F7FA`,
   textDecoration: `none`,
   userSelect: `none`,
+  cursor: `pointer`,
   whiteSpace: `pre`,
   transition: `all 250ms ease`,
   p: 0,
   ':visited': {
-    color: 'white'
+    color: '#F5F7FA'
   },
   ':hover': {
-    color: 'alpha'
+    color: '#088E60'
   }
 }

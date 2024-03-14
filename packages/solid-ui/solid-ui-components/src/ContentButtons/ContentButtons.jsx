@@ -10,7 +10,13 @@ import { BiChevronDown } from 'react-icons/bi'
 const styles = {
   horizontal: {
     '.button-group-link': {
-      py: 3
+      py: 3,
+      color: '#EAEAEA',
+      cursor: 'pointer', // Adiciona o cursor de ponteiro ao passar o mouse
+       transition: 'color 0.5s', // Adiciona uma transição suave para a mudança de cor do texto
+      '&:hover': {
+        color: '#2A946F' // Defina a cor desejada para o efeito de hover
+      }
     },
     '> * + a, > * + div, > * + button': {
       ml: [3, null, null, 4],

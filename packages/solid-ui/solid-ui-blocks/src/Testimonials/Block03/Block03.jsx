@@ -24,7 +24,7 @@ const styles = {
 }
 
 const TestimonialsBlock03 = ({
-  content: { text, collection, buttons },
+  content: { text, collection, buttons },togglePanel,
   reverse
 }) => (
   <Container>
@@ -47,7 +47,7 @@ const TestimonialsBlock03 = ({
           [reverse ? 'mt' : 'mb']: [5, null, null, 0]
         }}
       >
-        <Tabs variant='dots' position='bottom' space={3} autoplay>
+        <Tabs position='bottom' space={3} autoplay>
           {collection?.map(({ container, text, avatar }, index) => (
             <ContentContainer
               content={container}
@@ -114,7 +114,7 @@ const TestimonialsBlock03 = ({
           {buttons && (
             <>
               <Divider space={3} />
-              <ContentButtons content={buttons} />
+              <button onClick={togglePanel} className='button' style={{ backgroundColor: '#088E60', color: '#fff', padding: '10px 20px', borderRadius: '5px', border: 'none', fontSize: '1.2rem', cursor: 'pointer', margin: '20px 0' }}>Agendar avaliação gratuita</button>
             </>
           )}
         </Reveal>

@@ -4,6 +4,8 @@ import hidden from './hidden'
 import navDark from './nav-dark'
 import navLight from './nav-light'
 import navWhite from './nav-white'
+import navBolt from './nav-bolt'
+
 
 export default {
   normal,
@@ -11,5 +13,6 @@ export default {
   hidden,
   'nav-dark': navDark,
   'nav-light': navLight,
+  'nav-bolt': navBolt,
   'nav-white': navWhite
 }

@@ -2,36 +2,37 @@
   "text": [
     {
       "text": "Omnichannel",
-      "color": "omegaDark",
-      "variant": "h4"
-    },
-    {
-      "text": "Centralize os seus atendimentos e ganhe velocidade",
+      "color": "#088E60",
       "variant": "h2"
     },
     {
+      "text": "Centralize os seus atendimentos e ganhe velocidade",
+      "variant": "h3",
+      "color":"#4E5460"
+    },
+    {
       "text": "Omnichannel redefine a comunicação com o cliente, integrando múltiplos canais em uma experiência de atendimento coesa e sem emendas",
-      "variant": "medium"
+      "variant": "small"
     }
   ],
   "images": [
     {
-      "src": "../../../assets/flexiblocks/homepage/saas/tab-feature-one.png",
+      "src": "../../../assets/flexiblocks/homepage/saas/Group36.png",
       "alt": "alt text",
       "radius": "lg",
       "shadow": "default"
     },
     {
-      "src": "../../../assets/flexiblocks/homepage/saas/tab-feature-one-overlay-two.png",
+      "src": "../../../assets/flexiblocks/homepage/saas/Group35.png",
       "alt": "alt text",
       "effects": ["fadeInDown", "float"],
       "position": {
-        "bottom": "-15%",
+        "bottom": "-18%",
         "left": "15%"
       }
     },
     {
-      "src": "../../../assets/flexiblocks/homepage/saas/tab-feature-one-overlay-one.png",
+      "src": "../../../assets/flexiblocks/homepage/saas/integracoes.png",
       "alt": "alt text",
       "radius": "lg",
       "shadow": "default",
@@ -47,8 +48,8 @@
       "text": [
         {
           "text": "15+",
-          "color": "beta",
-          "variant": "h2",
+          "color": "#088E60",
+          "variant": "h1",
           "space": 1
         },
         {
@@ -64,8 +65,8 @@
       "text": [
         {
           "text": "3x",
-          "color": "beta",
-          "variant": "h2",
+          "color": "#088E60",
+          "variant": "h1",
           "space": 1
         },
         {

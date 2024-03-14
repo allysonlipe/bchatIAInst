@@ -17,7 +17,7 @@
   ],
   "images": [
     {
-      "src": "../../../assets/flexiblocks/homepage/saas/hero.png",
+      "src": "../../../assets/flexiblocks/homepage/app/hero.png",
       "alt": "alt text",
       "radius": "lg",
       "shadow": "default",

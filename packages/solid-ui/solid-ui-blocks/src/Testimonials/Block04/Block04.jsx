@@ -28,7 +28,7 @@ const styles = {
     transition: `all 0.2s ease-in`,
     mr: 2,
     ':hover': {
-      color: `omegaDark`
+      color: `red`
     },
     '&.active': {
       color: `alpha`

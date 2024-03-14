@@ -7,6 +7,8 @@ import Drawer from '@solid-ui-components/Drawer'
 import ContentImages from '@solid-ui-components/ContentImages'
 import ContentButtons from '@solid-ui-components/ContentButtons'
 import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
+import logo from './image/logo.svg'
+import logodark from './image/logodark.svg'
 
 const styles = {
   wrapper: {
@@ -25,6 +27,12 @@ const styles = {
       py: [3, null, 2],
       '.button-group-link.level-1, button-group-link.level-1:visited': {
         color: `headerActiveColor`
+      },
+      img: {
+        content: `url(${logodark})` 
+      },
+      '.button-group-link.level-1:hover, button-group-link.level-1:visited:hover': {
+        color: '#2A946F' 
       }
     },
     //Make buttons in header smaller
@@ -67,11 +75,7 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
             <Flex sx={styles.header}>
               <Box sx={styles.logoContainer}>
                 <GLink to='/'>
-                  <ContentImages
-                    content={{ images }}
-                    sx={styles.image}
-                    imageEffect='fadeIn'
-                  />
+                  <img src={logo} alt="Logo" style={{ height: 'auto', maxWidth: '100%' }} />
                 </GLink>
               </Box>
               {collection && (

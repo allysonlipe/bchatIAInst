@@ -2,8 +2,8 @@
   "text": [
     {
       "text": "Monitoramento de qualidade",
-      "color": "omegaDark",
-      "variant": "h4"
+      "color": "#517664",
+      "variant": "medium"
     },
     {
       "text": "Saiba tudo o que acontece na sua operação",
@@ -32,13 +32,13 @@
   ],
   "images": [
     {
-      "src": "../../../assets/flexiblocks/homepage/saas/tab-feature-three.png",
+      "src": "../../../assets/flexiblocks/homepage/saas/feature3.png",
       "alt": "alt text",
       "radius": "lg",
       "shadow": "default"
     },
     {
-      "src": "../../../assets/flexiblocks/homepage/saas/tab-feature-three-overlay-one.png",
+      "src": "../../../assets/flexiblocks/homepage/saas/analise.png",
       "alt": "alt text",
       "radius": "lg",
       "shadow": "default",

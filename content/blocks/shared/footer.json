@@ -9,89 +9,68 @@
     {
       "text": [
         {
-          "text": "Quick Links"
+          "text": "Links Úteis",
+          "color":"white"
         }
       ],
       "buttons": [
         {
           "text": "Home",
           "type": "ANCHOR",
-          "link": "#hero",
-          "variant": "links.nav-light"
+          "link": "#Home",
+          "variant": "links.nav-bolt"
         },
         {
-          "text": "Blog",
-          "type": "MODAL",
-          "link": "advertisement",
-          "variant": "links.nav-light"
+          "text": "Conheça a bolt",
+          "type":"PAGE",
+          "link": "https://bolt360.com.br",
+          "variant": "links.nav-bolt"
         },
         {
-          "text": "Contact Us",
+          "text": "Contate-nos",
           "type": "MODAL",
           "link": "contact",
-          "variant": "links.nav-light"
+          "color": "#2f4f4f",
+          "variant": "links.nav-bolt"
         }
       ]
     },
     {
       "text": [
         {
-          "text": "Legal Stuff"
+          "text": "Mídias sociais",
+          "color":"white"
         }
       ],
       "buttons": [
         {
-          "text": "Privacy Notice",
+          "text": "Facebook",
           "type": "PAGE",
-          "link": "",
-          "variant": "links.nav-light"
-        },
-        {
-          "text": "Cookie Policy",
-          "type": "PAGE",
-          "link": "",
-          "variant": "links.nav-light"
-        },
-        {
-          "text": "Terms Of Use",
-          "type": "PAGE",
-          "link": "",
-          "variant": "links.nav-light"
-        }
-      ]
-    },
-    {
-      "text": [
-        {
-          "text": "Social Media"
-        }
-      ],
-      "buttons": [
-        {
-          "text": "Github",
-          "type": "PAGE",
-          "link": "https://github.com/gatsby",
-          "variant": "links.nav-light",
+          "link": "https://www.facebook.com/profile.php?id=61557147965286",
+          "variant": "links.nav-bolt",
+          "color": "#2f4f4f",
           "icon": {
-            "src": "../../assets/flexiblocks/icons/bxl-github.svg",
-            "color": "#2f4f4f"
+            "src": "../../assets/flexiblocks/icons/bxl-facebook.svg",
+            "color": "white"
           }
         },
         {
-          "text": "Twitter",
+          "text": "Linkedin",
           "type": "PAGE",
-          "link": "https://twitter.com/gatsby",
-          "variant": "links.nav-light",
+          "link": "https://www.linkedin.com/company/bolt-360/?viewAsMember=true",
+          "variant": "links.nav-bolt",
+          "color": "#2f4f4f",
           "icon": {
-            "src": "../../assets/flexiblocks/icons/bxl-twitter.svg",
+            "src": "../../assets/flexiblocks/companies/company-linkedin.svg",
             "color": "#1da1f2"
           }
         },
         {
           "text": "Instagram",
           "type": "PAGE",
-          "link": "https://instagram.com/gatsby",
-          "variant": "links.nav-light",
+          "link": "https://www.instagram.com/bchat.ia",
+          "variant": "links.nav-bolt",
+          "color": "#2f4f4f",
           "icon": {
             "src": "../../assets/flexiblocks/icons/bxl-instagram.svg",
             "color": "#c13584"

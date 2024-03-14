@@ -10,22 +10,26 @@
       "buttons": [
         {
           "text": "Soluçoes",
-          "type": "PAGE",
+          "type": "ANCHOR",
+          "link": "#solucoes",
           "variant": "links.nav-dark"
         },
         {
           "text": "Clientes",
-          "type": "PAGE",
+          "type": "ANCHOR",
+          "link": "#testemonials",
           "variant": "links.nav-dark"
         },
         {
           "text": "Faq",
-          "type": "PAGE",
+          "type": "ANCHOR",
+          "link": "#faq",
           "variant": "links.nav-dark"
         },
         {
-          "text": "Dúvidas",
+          "text": "Login",
           "type": "PAGE",
+          "link": "https://app.bchat.com.br/",
           "variant": "links.nav-dark"
         }
       ]
